@@ -1,11 +1,5 @@
-// index.android.js
-
-// Import a library to create a conmponent
-
 import React from 'react';
 import { Text, View } from 'react-native';
-
-// Create a component
 
 const Header = (props) => {
   const { textStyle, viewStyle } = styles;
@@ -33,5 +27,5 @@ const styles = {
     fontSize: 20
   }
 };
-// Render it to a device.
+
 export { Header };
